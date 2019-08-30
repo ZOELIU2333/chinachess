@@ -3,18 +3,20 @@
 
 基于QT5.9 C++
 
-主界面
+1.主界面
 
 ![image](readmeres/main.png)
 
 
-人人或人机对战界面
+2.人人或人机对战界面
 
 
 ![image](readmeres/game.png)
 
+人机对战人工智能采用最大最小值算法
 
-网络对战
+
+3.网络对战
 
 
 ![image](readmeres/socket.png)
