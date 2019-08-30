@@ -1,11 +1,21 @@
-#ifndef MAINWND_H
+﻿#ifndef MAINWND_H
 #define MAINWND_H
 
+#include <QWidget>
+#include "Board.h"
+#include "CtrlPanel.h"
 
-class MainWnd
+class MainWnd : public QWidget
 {
+    Q_OBJECT
 public:
-    MainWnd();
+    explicit MainWnd(int gameType, QWidget *parent = 0);
+
+    int _gameType;
+
+signals:
+
+public slots:
 };
 
 #endif // MAINWND_H
